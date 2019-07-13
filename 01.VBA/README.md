@@ -9,10 +9,11 @@ This report analyzes 4,114 projects using Microsoft Excel visualization tools an
 
 ## Data
 The data was collected in May 2017 and contains 4,114 Kickstarted campaigns that took place between May 2009 and May 2017. The following attributes were collected for each campaign:
+
 | Attribute | Description |
-| ------------- | ------------- |
-| name   | name of the campaign |
-|description   | description of the campaign  |
+| --- | --- |
+| name | name of the campaign |
+| description | description of the campaign  |
 
 ![Kickstarter Table](Images/FullTable.PNG)
 
