@@ -1,12 +1,18 @@
 # Unit 1 | Assignment - KickStart My Chart
 
-## Background
+## Introduction
 
-Over two billion dollars have been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the over 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
+Kickstarter is a crowd funding service that helps creators and startups find the resources and support they need to make their projects come to life. Creators make campaigns on Kickstarter where they include the description of the project and funding goal. Backers financially support campaigns by purchasing different items that the campaign offers. The Kickstarter community comes together and helps many musicians, artists, designers and other creators achieve their missions. Since their launch on April 28th, 2009, 16 million people have backed a project launched on Kickstarter, $4.06 billion has been pledged, and 156,852 projects have been successfully funded. 
 
-Since getting funded on Kickstarter requires meeting or exceeding the project's initial goal, many organizations spend months looking through past projects in an attempt to discover some trick to finding success. For this week's homework, you will organize and analyze a database of four thousand past projects in order to uncover any hidden trends.
+This report analyzes 4,114 projects using Microsoft Excel visualization tools and outlines some key hidden trends found in the data.
 
-## Instructions
+
+## Data
+The data was collected in May 2017 and contains 4,114 Kickstarted campaigns that took place between May 2009 and May 2017. The following attributes were collected for each campaign:
+| Attribute | Description |
+| ------------- | ------------- |
+| name   | name of the campaign |
+|description   | description of the campaign  |
 
 ![Kickstarter Table](Images/FullTable.PNG)
 
