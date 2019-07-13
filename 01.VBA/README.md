@@ -13,7 +13,23 @@ The data was collected in May 2017 and contains 4,114 Kickstarted campaigns that
 | Attribute | Description |
 | --- | --- |
 | name | name of the campaign |
-| description | description of the campaign  |
+| description | description of the campaign |
+| goal amount | how much the campaign was hoping to raise |
+| pledged amount | the total amount that the campaign was able to raise |
+| state | “successful”, if the campaign was able to meet its goal
+“failed”, if the campaign did not meet its goal before deadline
+“canceled”, if the campaign was canceled
+“live”, if the campaign was still going when data was collected |
+| backers count | the number of backers that supported the campaign |
+| launch date | the date when the campaign started |
+| deadline | the date when the campaign ended |
+
+ 
+
+ 
+category & • based on the its description, each campaign was categorized in one
+sub-category
+of the following categories and sub-categories (Figure 1).
 
 ![Kickstarter Table](Images/FullTable.PNG)
 
