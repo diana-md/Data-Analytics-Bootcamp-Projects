@@ -17,16 +17,18 @@ I build a Bubble Plot that showcased the relationship between four key variables
 - Total Number of Drivers Per City
 - City Type (Urban, Suburban, Rural)
 
-![]("Media/Fig1.png")
+![](Media/Fig1.png)
 
 In addition, I generated the following three pie charts:
 - % of Total Fares by City Type
 - % of Total Rides by City Type
 - % of Total Drivers by City Type
 
-![]("Media/pie_chart3.png")
+![](Media/pie_chart3.png)
 
 From combining and analyzing the data, the following conclusions were taken:
 - The cities with the highest number of rides and divers are in the urban area.
 - Urban cities also have a lower average fare than rural and sub-urban cities. 
 - There is a strong correlation between the number of drivers in a city and the number of fares in that city.
+
+Please see Jupyter notebook for code.
