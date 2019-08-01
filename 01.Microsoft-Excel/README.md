@@ -8,18 +8,20 @@ Kickstarter is a crowdfunding service where over 300,000 projects have been laun
 - **Conditional formatting** was used to automatically change the fill colour of cells in a column based on the cell value.
 - **Formulas** and conditional formatting were used to ** automatically create new columns** and colour them using a three-colour-scale.
 
-<img src="Media/01-Excel-GIF.gif" width="400" height="250" class = "center">
+<img src="Media/01-Excel-GIF.gif" width="500" height="300" class = "center">
                                                        
 - Formulas were used to **split cells** into categories and sub-categories. 
 
-<img src=Media/02-Excel-GIF.gif width="400" height="250" class = "center">
+<img src=Media/02-Excel-GIF.gif width="500" height="300" class = "center">
 
 - **Pivot tables** were used to count the number of successful, failed, canceled and live campaigns per category.
 - A **stacked column pivot chart** that could be **filtered** by country was used to offer insights on the different categories and sub-categories in each country. 
+<img src = "Media/stacked-column-pivot-chart.png" width="500" height="300">
 - Formulas were used to convert timestamps into normal dates and Excel Date format.
 - A **pivot chart line graph** was created to visualize the number of successful, failed and canceled campaigns filtered by category and year.
+<img src="Media/pivot-chart-line-graph.png" with="500" height="300">
 
-<img src="Media/03-Excel-GIF.gif" width="400" height="250" class = "center">
+<img src="Media/03-Excel-GIF.gif" width="500" height="300" class = "center">
 
 
 ###### Report
