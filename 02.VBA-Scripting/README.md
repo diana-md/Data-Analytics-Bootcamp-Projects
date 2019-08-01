@@ -4,7 +4,8 @@
 
 In this assignment I used VBA scripting to analyze real stock market data from 2014, 2015 and 2016.
 
-Data
+###### Data
+
 Every year of real stock market data is represented on a different sheet in an Excel file. Every sheet contains between 705,000 and 790,000 rows of stock data, each row containing < ticker >, < date > , < open >, < high > , < low >, < close > and < vol > information. 
 
 ###### Script
