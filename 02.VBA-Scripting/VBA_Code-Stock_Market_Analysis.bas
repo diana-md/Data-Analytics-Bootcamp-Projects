@@ -1,4 +1,8 @@
 Attribute VB_Name = "Module2"
+
+'This function takes a worksheet(ws), a row number (i) of the big table, a row number of the new table where new data 
+'needs to pe added (x) and the value of the stock at the beginning of the year (open_value). It calculates and adds values
+'to the Yearly Change and Percent Change columns.
 Sub write_to_cell(ws, i, x, open_value)
     'Calculate and format Yearly Change Value
     yearly_change = ws.Cells(i, 6).Value - open_value
@@ -22,6 +26,9 @@ Sub write_to_cell(ws, i, x, open_value)
     ws.Cells(x, 11).NumberFormat = "0.00%"
 
 End Sub
+
+'getStockVolume() function loops through each of the Worksheets, sets new column names on each sheet and 
+'loops through each of the rows keeping track of the ticker value and total in the previous rows. 
 Sub getStockVolume()
     
     Dim i As Long
@@ -31,6 +38,7 @@ Sub getStockVolume()
     Dim current_open As Double
     Dim yearly_change As Double
     
+    'Variable x keeps track of the row number on the table in the right that contains the summary of the stock
     Dim x As Integer
     Dim ws As Worksheet
     
@@ -66,8 +74,10 @@ Sub getStockVolume()
         
         For i = start_row To last_row + 1
             If ws.Cells(i, 1).Value = current_ticker Then
+            'If the ticker in this row is the same with the ticker in the previous row, add value to the total
                 current_total = current_total + ws.Cells(i, 7)
             Else
+            'If the ticker in this row is different than the ticker in the previous row, add a new row to the summary table 
                 ws.Cells(x, 9).Value = current_ticker
                 Call write_to_cell(ws, i - 1, x, current_open)
                 ws.Cells(x, 12).Value = current_total
