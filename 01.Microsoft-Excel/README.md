@@ -14,8 +14,8 @@ Kickstarter is a crowdfunding service where over 300,000 projects were launched 
 - A **pivot chart line graph** was created to visualize the number of successful, failed and canceled campaigns filtered by category and year.
 
 
-![](Media/01-Excel-GIF.mp4)
-![](02-Excel-GIF.gif)
+![](Media/01-Excel-GIF.gif)
+![](Media/02-Excel-GIF.gif)
 
 ###### Report
 [Here](https://github.com/diana-md/Data-Analytics-Bootcamp-Projects/blob/master/01.Microsoft-Excel/Report.pdf) is the pdf version of the report that includes my findings. 
