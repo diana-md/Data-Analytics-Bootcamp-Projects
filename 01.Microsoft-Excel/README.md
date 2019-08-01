@@ -8,18 +8,18 @@ Kickstarter is a crowdfunding service where over 300,000 projects were launched 
 - **Conational formatting** was used to automatically change the fill colour of cells in a column based on the cell value.
 - **Formulas** and conational formatting were used to ** automatically create new columns** and colour them using a three-colour-scale.
 
-<img src="Media/01-Excel-GIF.gif" width="400" height="250">
+<img src="Media/01-Excel-GIF.gif" width="400" height="250" class = "center">
                                                        
 - Formulas were used to **split cells** into categories and sub-categories. 
 
-<img src=Media/02-Excel-GIF.gif width="400" height="250">
+<img src=Media/02-Excel-GIF.gif width="400" height="250" class = "center">
 
 - **Pivot tables** were used to count the number of successful, failed, canceled and live campaigns per category.
 - A **stacked column pivot chart** that could be **filtered** by country was used to offer insights on the different categories and sub-categories in each country. 
 - Formulas were used to create timestamps into normal dates and Excel Date format.
 - A **pivot chart line graph** was created to visualize the number of successful, failed and canceled campaigns filtered by category and year.
 
-<img src="Media/03-Excel-GIF.gif" width="400" height="250")
+<img src="Media/03-Excel-GIF.gif" width="400" height="250" class = "center">
 
 
 ###### Report
