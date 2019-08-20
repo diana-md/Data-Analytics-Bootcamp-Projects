@@ -1,5 +1,5 @@
 # Scrape-Store-Display-Mars
-This project demonstrates the ability to scrape various websites for data, store the information found in a MongoDB and display the information found on one HTML page.
+This project demonstrates the ability to scrape various websites for data, store the information found in a MongoDB and use Flask to display the information found on one HTML page.
 
 Files:
 * mars_app.py - contains the flask application
