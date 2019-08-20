@@ -1,6 +1,6 @@
 In this project I used Python SQLAlchemy to analyze and perform data exploration of a .sqlite file containing climate data in Hawaii Islands and I created a Flask API to return the findings. 
 
-SQLAlchemy was used to connet to the .sqlite file and to repflect the tables in the database into Python classes. 
+SQLAlchemy was used to connet to the .sqlite file and to reflect the tables in the database into Python classes. 
 
 ##### Precipitation Analysis 
 In order to perform Precipitation Analysis, the following steps were taken:
