@@ -4,7 +4,7 @@ This application helps businesses in the automotive and dry cleaning industries 
 
 This project demostrates the ability to perform ETL (Extract Transform Load). The tools used were Jupyter Notebooks and different Python libraries such as requests, pandas, json, sqlalchemy.
 
-![ETL_Diagram.jpeg](ETL_Diagram)
+<img src="ETL_Diagram.jpeg" width="700" height="480">
 
 Steps that were taken:
 1. Extract:
